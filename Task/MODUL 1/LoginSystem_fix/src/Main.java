@@ -32,7 +32,10 @@ public class Main {
             System.out.print("Enter student ID: ");
             String studentID = scanner.nextLine();
 
-            if (studentName.equals("Amalia Sanyoto") && studentID.equals("202410370110038")) {
+            String validStudentName = "Amalia Sanyoto";
+            String validStudentID = "202410370110038";
+
+            if (studentName.equals(validStudentName) && studentID.equals(validStudentID)) {
                 System.out.println("Student Login Successful!");
                 System.out.println("Name: " + studentName);
                 System.out.println("Student ID: " + studentID);
